@@ -1,0 +1,8 @@
+.header {
+    height: 52px;
+    max-width: 1184px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 28px;
+    align-items: center;
+}
