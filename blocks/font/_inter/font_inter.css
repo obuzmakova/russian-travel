@@ -155,9 +155,9 @@
 Variable font.
 Usage:
 
-  html { font-family: 'Inter', sans-serif; }
+  html { font-family: '_inter', sans-serif; }
   @supports (font-variation-settings: normal) {
-    html { font-family: 'Inter var', sans-serif; }
+    html { font-family: '_inter var', sans-serif; }
   }
 */
 @font-face {
