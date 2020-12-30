@@ -1,8 +1,15 @@
 .header {
     height: 52px;
-    max-width: 1184px;
+    width: 92%;
     margin: 0 auto;
     position: relative;
     padding-top: 28px;
     align-items: center;
+}
+
+@media screen and (max-width: 320px){
+    .header {
+        height: 42px;
+        padding-top: 16px;
+    }
 }
