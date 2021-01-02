@@ -18,11 +18,16 @@
     right: 47px;
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 425px){
     .header__lang-link {
         height: 22px;
         width: 20px;
         top: 30px;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+
     }
     .header__lang-link:first-of-type {
         right: 40px;
