@@ -1,8 +1,22 @@
 .lead__map {
-    width: 937px;
-    height: 263px;
+    width: 95%;
+    height: 26%;
     z-index: 1;
-    bottom: 284px;
-    left: 171px;
+    bottom: 28%;
+    left: 5%;
     position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .lead__map {
+        height: 24%;
+        bottom: 26%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .lead__map {
+        height: 21%;
+        bottom: 26%;
+    }
 }

@@ -1,7 +1,14 @@
 .lead__image {
-    height: 615px;
-    width: 984px;
+    width: 100%;
+    object-fit: contain;
     margin: 0 auto;
+    padding: 0;
     bottom: 22px;
     position: absolute;
+}
+
+@media screen and (max-width: 425px){
+    .lead__image {
+        height: 49%;
+    }
 }
