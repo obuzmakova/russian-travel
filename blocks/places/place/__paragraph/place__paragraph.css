@@ -7,6 +7,9 @@
     .place__paragraph {
         padding-bottom: 25px;
     }
+    .place__paragraph:last-of-type {
+        padding: 0;
+    }
 }
 
 @media screen and (max-width: 425px) {
