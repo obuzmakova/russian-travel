@@ -1,5 +1,5 @@
 .place {
-    width: 984px;
+    width: 100%;
     margin-bottom: 80px;
     display: flex;
     flex-wrap: wrap;
@@ -8,4 +8,17 @@
 
 .place:last-of-type {
     margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px){
+    .place {
+        margin-bottom: 73px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .place {
+        /*flex-direction: column;*/
+        margin-bottom: 50px;
+    }
 }

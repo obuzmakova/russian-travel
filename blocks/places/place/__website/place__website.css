@@ -6,3 +6,23 @@
     padding: 0;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 1024px){
+    .place__website {
+        margin-left: 32px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .place__website {
+        width: 352px;
+        margin-left: 28px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .place__website {
+        width: 288px;
+        margin: 0 auto;
+    }
+}
