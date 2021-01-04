@@ -5,3 +5,9 @@
     left: 5%;
     position: absolute;
 }
+
+@media screen and (max-width: 425px) {
+    .lead__map {
+        top: 55%;
+    }
+}

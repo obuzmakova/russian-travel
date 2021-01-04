@@ -1,7 +1,7 @@
 .cover__title {
     position: absolute;
     top: 245px;
-    left: 312px;
+    left: 25%;
     width: 560px;
     z-index: 2;
     font-size: 72px;
@@ -22,16 +22,26 @@
 
 @media screen and (max-width: 768px) {
     .cover__title {
-        top: 115px;
-        left: 104px;
+        width: 73%;
+        top: 24%;
+        left: 13%;
+    }
+}
+
+@media screen and (max-width: 679px) {
+    .cover__title {
+        width: 73%;
+        top: 24%;
+        left: 13%;
+        font-size: 50px;
     }
 }
 
 @media screen and (max-width: 425px) {
     .cover__title {
-        top: 33px;
-        left: 16px;
-        width: 288px;
+        top: 16%;
+        left: 5%;
+        width: 90%;
         font-size: 32px;
         line-height: 1.09;
     }
