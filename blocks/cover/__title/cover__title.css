@@ -9,7 +9,8 @@
     margin: 0 auto;
     color: white;
     text-decoration: none;
-    padding-top: 15%;
+    padding: 0;
+    /*box-sizing: border-box;*/
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,0 +1,12 @@
+.cover__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 640px;
+    text-decoration: none;
+    color: #ffffff;
+}
