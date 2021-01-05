@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
-    min-height: calc(90vh);
     margin: 0 48px;
     gap: 16px;
 }
