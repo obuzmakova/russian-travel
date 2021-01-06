@@ -11,6 +11,6 @@
 @media screen and (max-width: 425px) {
     .header__lang-links {
         width: 62px;
-        margin: 30px auto 0 auto;
+        margin: auto 0 auto auto;
     }
 }
