@@ -9,13 +9,6 @@
     color: white;
     margin: 0 auto;
     padding: 32px 0 0 0;
-    /*box-sizing: border-box;*/
-}
-
-@media screen and (max-width: 1024px) {
-    .cover__subtitle {
-
-    }
 }
 
 @media screen and (max-width: 768px) {

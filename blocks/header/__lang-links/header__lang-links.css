@@ -1,0 +1,16 @@
+.header__lang-links {
+    width: 77px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+    .header__lang-links {
+        width: 62px;
+        margin: 30px auto 0 auto;
+    }
+}
