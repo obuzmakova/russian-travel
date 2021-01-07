@@ -11,9 +11,3 @@
         padding: 0;
     }
 }
-
-@media screen and (max-width: 425px) {
-    .place__paragraph:last-of-type {
-        padding: 0;
-    }
-}

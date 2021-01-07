@@ -8,12 +8,6 @@
     margin: 0;
 }
 
-@media screen and (max-width: 768px) {
-    .intro__title {
-        width: 100%;
-    }
-}
-
 @media screen and (max-width: 425px) {
     .intro__title {
         max-width: 288px;
