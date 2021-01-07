@@ -3,6 +3,7 @@
     padding-top: 114px;
     padding-bottom:92px;
     padding-left: 148px;
+    margin-left: calc(50vw - 640px);
 }
 
 @media screen and (max-width: 1024px) {
