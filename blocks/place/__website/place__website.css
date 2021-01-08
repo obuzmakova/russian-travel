@@ -22,7 +22,7 @@
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 460px){
     .place__website {
         width: 90%;
         margin: 0 auto;
