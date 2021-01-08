@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 768px){
     .place {
-        margin-bottom: 73px;
+        margin: 0 0 73px 0;
     }
 }
 

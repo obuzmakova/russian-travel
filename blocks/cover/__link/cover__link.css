@@ -1,4 +1,5 @@
 .cover__link {
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,13 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     width: 100%;
-    min-height: 640px;
     text-decoration: none;
     color: #ffffff;
-}
-
-@media screen and (max-width: 425px) {
-    .cover__link {
-        min-height: 200px;
-    }
 }

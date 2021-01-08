@@ -1,5 +1,6 @@
 .place__title {
-    width: 460px;
+    /*width: 460px;*/
+    width: calc((100% - 40px) / 2);
     margin: 0;
     padding: 0;
     font-size: 72px;
@@ -11,13 +12,15 @@
 
 @media screen and (max-width: 1024px){
     .place__title {
-        width: 43%;
+        /*width: 440px;*/
+        width: calc((100% - 32px) / 2);
     }
 }
 
 @media screen and (max-width: 768px){
     .place__title {
-        width: 44%;
+        /*width: 44%;*/
+        width: calc((100% - 28px) / 2);
         font-size: 42px;
         line-height: 1.1;
     }
@@ -28,6 +31,6 @@
         width: 90%;
         font-size: 32px;
         line-height: 1.09;
-        margin: 0 auto 32px auto;
+        margin: 0 auto 32px 16px;
     }
 }
