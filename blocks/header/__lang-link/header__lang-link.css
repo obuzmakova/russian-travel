@@ -8,7 +8,7 @@
     margin-left: 18px;
 }
 
-.header__lang-link--active {
+.header__lang-link_active {
     text-decoration: underline;
 }
 
