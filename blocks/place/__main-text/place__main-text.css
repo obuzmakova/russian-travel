@@ -1,5 +1,4 @@
 .place__main-text {
-    /*width: 484px;*/
     width: calc((100% - 40px) / 2);
     height: max-content;
     font-size: 18px;
@@ -7,22 +6,18 @@
     font-weight: 400;
     line-height: 1.63;
     text-align: left;
-    /*padding-left: 40px;*/
     margin: 48px auto 0 40px;
 }
 
 @media screen and (max-width: 1024px){
     .place__main-text {
-        /*width: calc(44vw);*/
         width: calc((100% - 32px) / 2);
-        /*padding-left: 0;*/
         margin: 48px auto 0 32px;
     }
 }
 
 @media screen and (max-width: 768px){
     .place__main-text {
-        /*width: 45%;*/
         width: calc((100% - 28px) / 2);
         font-size: 16px;
         margin: 48px auto 0 28px;
@@ -33,6 +28,5 @@
     .place__main-text {
         width: 90%;
         margin: 32px auto 0 auto;
-        /*padding: 0;*/
     }
 }

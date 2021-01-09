@@ -6,7 +6,7 @@
     font-weight: 900;
     line-height: 1.06;
     text-align: center;
-    margin: 0 auto;
+    margin: calc(100%/5) auto 0 auto;
     color: white;
     text-decoration: none;
     padding: 0;
