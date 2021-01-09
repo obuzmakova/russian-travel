@@ -1,18 +1,12 @@
 .place__image {
-    /*width: 460px;
-    height: 460px;*/
     margin: 48px 0 0 0;
-    /*padding: 0;*/
     max-width: calc((100% - 40px) / 2);
     height: 460px;
     width: 460px;
-    /*padding-bottom: 100%;*/
 }
 
 @media screen and (max-width: 1024px){
     .place__image {
-        /*max-width: 440px;
-        max-height: 440px;*/
         width: calc((100% - 32px) / 2);
         height: calc(100%);
     }
@@ -20,8 +14,6 @@
 
 @media screen and (max-width: 768px){
     .place__image {
-        /*width: 340px;
-        height: 340px;*/
         width: calc((100% - 28px) / 2);
         max-height: 340px;
         padding: 0;

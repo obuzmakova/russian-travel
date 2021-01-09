@@ -19,14 +19,13 @@
 
 @media screen and (max-width: 768px){
     .place__title {
-        /*width: 44%;*/
         width: calc((100% - 28px) / 2);
         font-size: 42px;
         line-height: 1.1;
     }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (max-width: 510px){
     .place__title {
         width: 90%;
         font-size: 32px;
